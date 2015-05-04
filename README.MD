@@ -5,7 +5,7 @@ Use this Polymer element to easily add Google Analytics to a Polymer application
 To use, just insert this element anywhere in your page (Usually is placed at the end of the body tag)
 
 ```
-<app-router-analytics id="google_analytics" trackingId="UA-1234567890-1"></app-router-analytics>
+<app-router-analytics trackingId="UA-1234567890-1"></app-router-analytics>
 ```
 
 Default behavior will report the url to Google Analytics with a hash as the URL. For the internal route of /blog, it is reported as /#/blog.
@@ -21,5 +21,5 @@ Options are:
 This is an optional attribute and can be set on the element when created:
 
 ```
-<app-router-analytics id="google_analytics" trackingId="UA-1234567890-1" mode="hashbang"></app-router-analytics>
+<app-router-analytics trackingId="UA-1234567890-1" mode="hashbang"></app-router-analytics>
 ```
